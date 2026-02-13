@@ -30,4 +30,7 @@ public class HomeScreen {
 //        new WebDriverWait(driver, Duration.ofSeconds(10)).until(visibilityOf(learningMaterial_id));
         learningMaterial_id.click();
     }
+        public void clickOnExitButton() {
+//        new WebDriverWait(driver, Duration.ofSeconds(10)).until(visibilityOf(exitButton_id));
+        exitButton_id_id.click();
 }
